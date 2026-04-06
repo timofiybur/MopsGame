@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4147811640585291544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9011110475087450733}
+  - component: {fileID: 3841477003083911821}
+  - component: {fileID: 2850793131724440410}
+  m_Layer: 0
+  m_Name: UiManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9011110475087450733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4147811640585291544}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3841477003083911821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4147811640585291544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"RandomText","value":{"$content":["\u041d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e","\u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e","\u0425\u0430\u0445\u0430\u0445
+      \u0431\u0440\u043e \u0440\u0456\u043b \u0434\u0443\u043c\u0430\u0454 \u0449\u043e
+      \u0433\u0440\u0430 \u0431\u0443\u0434\u0435 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430
+      \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430\u0445","\u0411\u0440\u043e...
+      \u041d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e...","\u041d\u0435
+      \u043d\u0430\u0442\u0438\u0441\u043a\u0430\u0439 \u0441\u044e\u0434\u0438","\u0413\u0440\u0430
+      \u0454..... \u0442\u0456\u043b\u044c\u043a\u0438 \u043d\u0430 \u043a\u043e\u043c\u043f''\u044e\u0442\u0435\u0440\u0456","\u0411\u0440\u043e,
+      \u0442\u0430\u043f\u0430\u0439 \u0431\u0456\u043b\u044c\u0448\u0435, \u043c\u043e\u0436\u0435
+      \u043f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f \u043d\u0430 \u0433\u0440\u0443
+      \u043e\u0442\u0440\u0438\u043c\u0430\u0454\u0448..","\u042f \u0437\u0430\u043d\u0430\u0434\u0442\u043e
+      \u043b\u0456\u043d\u0438\u0432\u0438\u0439 \u0449\u043e\u0431 \u0440\u043e\u0431\u0438\u0442\u0438
+      \u0433\u0440\u0443 \u043d\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d","\u0421\u043a\u0456\u043b\u044c\u043a\u0438
+      \u0449\u0435 \u0431\u0443\u0434\u0435\u0448 \u0442\u0438\u043a\u0430\u0442\u0438?","\u041c\u043e\u043f\u0441\u0438
+      \u0441\u043a\u0430\u0437\u0430\u043b\u0438: \u0412\u043e\u043d\u0438 \u0432\u0438\u043f\u0443\u0441\u0442\u044f\u0442\u044c
+      \u0433\u0440\u0443 \u0442\u0456\u043b\u044c\u043a\u0438 \u043d\u0430.... \u043a\u043e\u043c\u043f","\u0422\u0430\u043f\u0430\u0439
+      \u0449\u0435! \u041d\u0423!","\u0422\u0435\u043e\u0440\u0456\u044f \u043b\u0456\u043d\u0438\u0432\u043e\u0441\u0442\u0456
+      \u0440\u043e\u0437\u0440\u0430\u0431\u0430","Erorr: 404 Not Found"],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RandomTextWindows","value":{"$content":["\u0431\u0440\u043e
+      \u043d\u0430 \u0447\u043e\u043c\u0443 \u0442\u0438 \u0433\u0440\u0430\u0454\u0448
+      \u0437\u0430\u0440\u0430\u0437 (\u0456 \u0441\u043c\u0430\u0439\u043b\u0438\u043a
+      \u0447\u0435\u0440\u0435\u043f\u0430)","\u041e\u0441\u044c \u043f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f
+      \u043d\u0430 \u0446\u044e \u0432\u0435\u0440\u0441\u0456\u044e: \u0422\u0438
+      \u0437\u0430\u0440\u0430\u0437 \u0432 \u043d\u0435\u0457 \u0433\u0440\u0430\u0454\u0448!","\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u043e","\u0411\u0440\u043e,
+      \u0442\u0430\u043f\u0430\u0439 \u0431\u0456\u043b\u044c\u0448\u0435, \u043c\u043e\u0436\u0435
+      \u043f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f \u043d\u0430 \u0433\u0440\u0443
+      \u043e\u0442\u0440\u0438\u043c\u0430\u0454\u0448..","\u0422\u0435\u043e\u0440\u0456\u044f
+      \u0446\u0456\u0454\u0457 \u0433\u0440\u0438 \u043d\u0430 \u0432\u0456\u043d\u0434\u043e\u0432\u0441\u0456","\u0422\u0430\u043f\u0430\u0439
+      \u0449\u0435! \u041d\u0423!","Erorr: 404 Not Found","\u0449\u043e \u0449\u0435
+      \u043f\u0438\u0441\u0430\u0442\u0438"],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Text","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2465215403191920278, guid: 6d9e4b910724fc34f85100e45f8618ef, type: 3}
+--- !u!114 &2850793131724440410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4147811640585291544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 284e327e3d759334fa33f8396e289070, type: 2}
